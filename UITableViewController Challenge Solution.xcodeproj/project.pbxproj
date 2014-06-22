@@ -14,13 +14,13 @@
 		56F8BE681956630A0036C70F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8BE671956630A0036C70F /* main.m */; };
 		56F8BE6C1956630A0036C70F /* DJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8BE6B1956630A0036C70F /* DJAppDelegate.m */; };
 		56F8BE6F1956630A0036C70F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F8BE6D1956630A0036C70F /* Main.storyboard */; };
-		56F8BE721956630A0036C70F /* DJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8BE711956630A0036C70F /* DJViewController.m */; };
 		56F8BE741956630A0036C70F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F8BE731956630A0036C70F /* Images.xcassets */; };
 		56F8BE7B1956630A0036C70F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8BE7A1956630A0036C70F /* XCTest.framework */; };
 		56F8BE7C1956630A0036C70F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8BE5B1956630A0036C70F /* Foundation.framework */; };
 		56F8BE7D1956630A0036C70F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8BE5F1956630A0036C70F /* UIKit.framework */; };
 		56F8BE851956630A0036C70F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56F8BE831956630A0036C70F /* InfoPlist.strings */; };
 		56F8BE871956630A0036C70F /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8BE861956630A0036C70F /* UITableViewController_Challenge_SolutionTests.m */; };
+		56F8BE92195664DE0036C70F /* DJTableViewControllerChallengeSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8BE91195664DE0036C70F /* DJTableViewControllerChallengeSolution.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		56F8BE6A1956630A0036C70F /* DJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAppDelegate.h; sourceTree = "<group>"; };
 		56F8BE6B1956630A0036C70F /* DJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAppDelegate.m; sourceTree = "<group>"; };
 		56F8BE6E1956630A0036C70F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56F8BE701956630A0036C70F /* DJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
-		56F8BE711956630A0036C70F /* DJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJViewController.m; sourceTree = "<group>"; };
 		56F8BE731956630A0036C70F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56F8BE791956630A0036C70F /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F8BE7A1956630A0036C70F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		56F8BE821956630A0036C70F /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		56F8BE841956630A0036C70F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56F8BE861956630A0036C70F /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		56F8BE90195664DE0036C70F /* DJTableViewControllerChallengeSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTableViewControllerChallengeSolution.h; sourceTree = "<group>"; };
+		56F8BE91195664DE0036C70F /* DJTableViewControllerChallengeSolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTableViewControllerChallengeSolution.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				56F8BE6A1956630A0036C70F /* DJAppDelegate.h */,
 				56F8BE6B1956630A0036C70F /* DJAppDelegate.m */,
 				56F8BE6D1956630A0036C70F /* Main.storyboard */,
-				56F8BE701956630A0036C70F /* DJViewController.h */,
-				56F8BE711956630A0036C70F /* DJViewController.m */,
+				56F8BE90195664DE0036C70F /* DJTableViewControllerChallengeSolution.h */,
+				56F8BE91195664DE0036C70F /* DJTableViewControllerChallengeSolution.m */,
 				56F8BE731956630A0036C70F /* Images.xcassets */,
 				56F8BE621956630A0036C70F /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56F8BE6C1956630A0036C70F /* DJAppDelegate.m in Sources */,
-				56F8BE721956630A0036C70F /* DJViewController.m in Sources */,
 				56F8BE681956630A0036C70F /* main.m in Sources */,
+				56F8BE92195664DE0036C70F /* DJTableViewControllerChallengeSolution.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
